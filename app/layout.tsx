@@ -9,15 +9,14 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'BMW Z Series | The Heritage of Pure Driving Pleasure',
   description: 'Explore the complete history of BMW Z Series roadsters - from the iconic Z1 to the modern Z4. Discover engine specs, facelifts, and special editions.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/favicon-96x96.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/favicon-96x96.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
