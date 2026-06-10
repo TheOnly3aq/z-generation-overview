@@ -21,7 +21,7 @@ export const zModels: ZModel[] = [
     chassis: 'Z1',
     bodyStyle: 'Roadster',
     image: '/images/z1.png',
-    powerRange: '170 hp',
+    powerRange: '168 hp',
     facts: [
       'Featured unique vertically retracting doors that disappeared into the sills',
       'Only 8,000 units were produced',
@@ -40,7 +40,7 @@ export const zModels: ZModel[] = [
     chassis: 'E36/7',
     bodyStyle: 'Roadster',
     image: '/images/z3-roadster.png',
-    powerRange: '115-231 hp',
+    powerRange: '115-228 hp',
     facts: [
       'Featured in the James Bond film "GoldenEye" before launch',
       'First BMW manufactured in Spartanburg, South Carolina',
@@ -54,7 +54,7 @@ export const zModels: ZModel[] = [
   {
     id: 'z3-m',
     name: 'Z3',
-    subtitle: 'M Roadster',
+    subtitle: 'M Roadster / M Coupe',
     years: '1997-2002',
     chassis: 'E36/7',
     bodyStyle: 'Roadster',
@@ -96,7 +96,7 @@ export const zModels: ZModel[] = [
     chassis: 'E52',
     bodyStyle: 'Roadster',
     image: '/images/z8.png',
-    powerRange: '400 hp',
+    powerRange: '395 hp',
     facts: [
       'Designed by Henrik Fisker as a modern homage to the BMW 507',
       'Featured in the James Bond film "The World Is Not Enough"',
@@ -115,7 +115,7 @@ export const zModels: ZModel[] = [
     chassis: 'E85',
     bodyStyle: 'Roadster',
     image: '/images/z4-e85-roadster.png',
-    powerRange: '170-265 hp',
+    powerRange: '150-265 hp',
     facts: [
       'Designed by Chris Bangle and Anders Warming',
       'Introduced BMW\'s "flame surfacing" design language to the Z range',
@@ -127,9 +127,28 @@ export const zModels: ZModel[] = [
   },
 
   {
+    id: 'z4-e86-coupe',
+    name: 'Z4',
+    subtitle: 'Coupe',
+    years: '2006-2008',
+    chassis: 'E86',
+    bodyStyle: 'Coupe',
+    image: '/images/z4-e85-coupe.png',
+    powerRange: '265 hp',
+    facts: [
+      'Fixed-roof version of the E85 Roadster',
+      'Offered in both standard and M Coupe variants',
+      'Provided greater structural rigidity than the Roadster',
+      'Combined sports-car handling with practical hatchback cargo space',
+      'Limited production has made it highly collectible',
+    ],
+    specialEditions: ['Z4 M Coupe'],
+  },
+
+  {
     id: 'z4-e85-m',
     name: 'Z4',
-    subtitle: 'M Roadster',
+    subtitle: 'M Roadster / Coupe',
     years: '2006-2008',
     chassis: 'E85',
     bodyStyle: 'Roadster',
@@ -143,25 +162,6 @@ export const zModels: ZModel[] = [
       'Widely regarded as one of the greatest driver-focused BMW roadsters',
     ],
     specialEditions: ['Z4 M Roadster'],
-  },
-
-  {
-    id: 'z4-e86-coupe',
-    name: 'Z4',
-    subtitle: 'Coupe',
-    years: '2006-2008',
-    chassis: 'E86',
-    bodyStyle: 'Coupe',
-    image: '/images/z4-e85-coupe.png',
-    powerRange: '215-343 hp',
-    facts: [
-      'Fixed-roof version of the E85 Roadster',
-      'Offered in both standard and M Coupe variants',
-      'Provided greater structural rigidity than the Roadster',
-      'Combined sports-car handling with practical hatchback cargo space',
-      'Limited production has made it highly collectible',
-    ],
-    specialEditions: ['Z4 M Coupe'],
   },
 
   {
@@ -191,7 +191,7 @@ export const zModels: ZModel[] = [
     chassis: 'G29',
     bodyStyle: 'Roadster',
     image: '/images/z4-g29-roadster.png',
-    powerRange: '197-387 hp',
+    powerRange: '194-340 hp',
     facts: [
       'Co-developed with Toyota and shares its platform with the A90 Supra',
       'Returned to a traditional fabric soft-top roof',
