@@ -37,14 +37,18 @@ export function HeroSection() {
             opacity: titleOpacity,
           }}
         >
-          {/* Simple Z badge */}
+          {/* Logo badge */}
           <motion.div
-            className="mx-auto mb-6 w-16 h-16 border border-white/20 flex items-center justify-center"
+            className="mx-auto mb-6 w-24 h-24 flex items-center justify-center p-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="text-2xl font-black tracking-tighter text-white">Z</span>
+            <img
+              src="/icon.svg"
+              alt="BMW Z Series"
+              className="w-full h-full object-contain"
+            />
           </motion.div>
 
           <motion.p
